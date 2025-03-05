@@ -1,0 +1,30 @@
+.formsignup {
+    display: block;
+    padding: 20px 50px;
+}
+
+.formsignup input {
+    display: block;
+    margin: 30px;
+    width: 90%;
+    padding: 15px;
+    border-radius: 8px;
+    border-color: gray;
+    background-color: rgb(232, 240, 254);
+
+}
+
+button {
+    display: flex;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 800;
+    margin: 30px auto;
+    border-radius: 8px;
+    background-color: #65AFFF;
+    color: white;
+}
+
+button:hover {
+    background-color: #1B2845;
+}
