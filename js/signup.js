@@ -6,7 +6,7 @@ function onsignup() {
     const rpassC = document.getElementById("reppasswordti").value;
 
     if (!fnameC || !lnameC || !emailC || !passC || !rpassC) {
-        alert("Error: All fields must be filled in!");
+        alert("Error: All fields must be filled out!");
     }
     if (fnameC && lnameC && emailC && passC && rpassC) {
         if (passC === rpassC && emailC.length > 3) {
